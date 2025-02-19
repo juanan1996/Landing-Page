@@ -1,12 +1,7 @@
 html{
     font-family: system-ui, Roboto;
     font-size: 20px;
-
-    /* BUTTON 2 #3882f6 */
-    /* INFORMATION 36px #1f2937 weight:900 */
-}
-*{
-    outline: 1px solid red;
+    zoom: 150%;
 }
 
 .black {
@@ -97,6 +92,10 @@ body {
 
 h2{
     text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+
 }
 .flex{
     display: flex;
@@ -140,4 +139,40 @@ h3 {
     font-weight: bold;
     text-align: right;
     margin: 0;
+}
+.action{
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    div{
+        flex: 1 1 70%;
+        p{
+            margin: 0;
+        }
+    }
+    .button{
+        flex: 0 1 0%;
+        align-self: center;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid #f9faf8;
+        border-radius: 10px;
+        font-size: 1rem;
+        padding: 10px 30px;
+        min-width: fit-content;
+    }
+}
+
+#footer{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 100;
+    padding: 1rem;
+
 }
